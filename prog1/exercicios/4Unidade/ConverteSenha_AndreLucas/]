@@ -1,0 +1,27 @@
+# UFCG - Proggramação 1 - 2019.2
+# André Lucas Medeiros Martins
+# Converte Senha
+
+palavra = input()
+criptografada = list(palavra)
+trocas = 0
+palavraCodificada = ''
+
+for indice in range(len(criptografada)):
+    if indice != 0:
+        if criptografada[indice] == 'a' or criptografada == 'A':
+            palavraCodificada += criptografada[indice]
+            trocas += 1
+        elif criptografada[indice] == 'e' or criptografada == 'E':
+            palavraCodificada += criptografada[indice]
+            trocas += 1
+        elif criptografada[indice] == 'i' or criptografada == 'I':
+            palavraCodificada += criptografada[indice]
+            trocas += 1
+        elif criptografada[indice] == 'o' or criptografada == 'O':
+            palavraCodificada += criptografada[indice]
+            trocas += 1
+    else:
+        palavraCodificada += criptografada[indice]
+
+print('{} ({} troca(s))'.format(palavraCodificada, trocas))
