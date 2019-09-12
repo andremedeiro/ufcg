@@ -9,9 +9,9 @@ porcentagem = pesoAgua/pesoAntes*100
 
 print("{:.1f}% do peso do produto é de água congelada.".format(porcentagem))
 
-if porcentagem <= 5:
+if porcentagem < 5:
     print("Produto qualis A.")
-elif porcentagem > 5 and porcentagem <= 10:
+elif porcentagem >= 5 and porcentagem < 10:
     print("Produto em conformidade.")
 else:
     print("Produto não conforme.")
