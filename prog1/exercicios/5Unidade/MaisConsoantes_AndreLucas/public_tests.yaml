@@ -1,0 +1,7 @@
+- input: |
+    mouse
+    casa
+    exemplo
+  output: |
+    3
+
