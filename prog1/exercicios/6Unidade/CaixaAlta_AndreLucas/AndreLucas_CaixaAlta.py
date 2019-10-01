@@ -12,7 +12,7 @@ def caixa_alta(frase):
                 if frase[indice - 1 ] == ' ':
                     palavra += frase[indice].upper()
                 else:
-                    palavra += frase[indice].lower()
+                    palavra += frase[indice]
             else:
                 palavra += frase[indice].upper()
 
@@ -34,4 +34,4 @@ def caixa_alta(frase):
 
     return nova_frase
 
-print(list(caixa_alta(input())))
+#print(list(caixa_alta(input())))
