@@ -21,11 +21,6 @@ def disciplinas(alocacao, professor):
     tupla = (disciplinas, creditos)
     return tupla
 
-#alocacao = {("P1", 4): ['Jorge', 'Dalton','Wilkerson'],
-         ("LP1", 4): ['Jorge', 'Dalton', 'Eliane', 'Wilkerson'],
-         ("EVOL", 2): ['Dalton'],
-         ("IC", 4): ['Eliane', 'Joseana'],
-         ("P2", 4): ['Livia', 'Raquel', 'Nazareno'],
-         ("GRAFOS", 2): ['Patricia', 'Patricia']}
+#alocacao = {("P1", 4): ['Jorge', 'Dalton','Wilkerson'],("LP1", 4): ['Jorge', 'Dalton', 'Eliane', 'Wilkerson'],("EVOL", 2): ['Dalton'],("IC", 4): ['Eliane', 'Joseana'],("P2", 4): ['Livia', 'Raquel', 'Nazareno'],("GRAFOS", 2): ['Patricia', 'Patricia']}
 
 #print(disciplinas(alocacao, "Patricia")[1])
